@@ -25,14 +25,14 @@ const platformWidth = 100;
 const platformHeight = 32;
 
 function preload() {
-  this.load.image('background', '../assets/space.png');
-  this.load.image('player', '../assets/MC.png');
-  this.load.image('platform', '../assets/platform.png');
-  this.load.image('basePlatform', '../assets/basePlatform.png');
-  this.load.image('spikes', '../assets/spikes.png');
+  this.load.image('background', './assets/space.png');
+  this.load.image('player', './assets/MC.png');
+  this.load.image('platform', './assets/platform.png');
+  this.load.image('basePlatform', './assets/basePlatform.png');
+  this.load.image('spikes', './assets/spikes.png');
   //music files
-  this.load.audio('backgroundMusic', '../assets/CelesteMIDI.mp3');
-  this.load.audio('gameOverMusic', '../assets/DustMIDI.mp3');
+  this.load.audio('backgroundMusic', './assets/CelesteMIDI.mp3');
+  this.load.audio('gameOverMusic', './assets/DustMIDI.mp3');
 }
 
 let background;
